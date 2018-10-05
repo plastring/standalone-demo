@@ -1,0 +1,37 @@
+<assembly>
+	<id>bin</id>
+	<formats>
+		<format>tar.gz</format>
+		<format>zip</format>
+	</formats>
+	<includeBaseDirectory>true</includeBaseDirectory>
+	<fileSets>
+		<fileSet>
+			<includes>
+				<include>README.md</include>
+				<include>conf/**</include>
+			</includes>
+		</fileSet>
+		<fileSet>
+			<directory>lib</directory>
+			<outputDirectory>lib</outputDirectory>
+		</fileSet>
+		<fileSet>
+			<directory>log</directory>
+			<outputDirectory>log</outputDirectory>
+		</fileSet>
+		<fileSet>
+			<directory>bin</directory>
+			<outputDirectory>bin</outputDirectory>
+			<includes>
+				<include>*.sh</include>
+			</includes>
+			<fileMode>755</fileMode>
+		</fileSet>
+	</fileSets>
+	<dependencySets>
+		<dependencySet>
+			<outputDirectory>lib</outputDirectory>
+		</dependencySet>
+	</dependencySets>
+</assembly>
