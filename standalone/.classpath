@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Standalone-App-core"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: log4j:log4j:1.2.17"/>
+	<classpathentry kind="output" path="/standalone/target/classes"/>
+</classpath>
